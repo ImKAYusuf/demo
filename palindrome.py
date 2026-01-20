@@ -4,4 +4,4 @@ def palindrome(word):
 	else:
 		return False 
 word=input('Enter a word to check palindrome: ') 
-print(palindrome(word))
+print(f"{palindrome(word)}")
